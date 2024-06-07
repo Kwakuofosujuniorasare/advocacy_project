@@ -102,3 +102,9 @@ const toggleModal = (person) => {
   }, 4000);
 }
 
+
+const news = document.getElementById('newsButton');
+
+news.addEventListener('click', function() {
+  window.open("https://youtu.be/iMA3kl-XvAU?feature=shared")
+})
